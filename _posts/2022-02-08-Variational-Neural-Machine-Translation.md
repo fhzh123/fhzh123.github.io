@@ -25,6 +25,17 @@ use_math: true
 
 This formula $f(x) = x^2$ is an example.
 
+$$
+\lim_{x\to 0}{\frac{e^x-1}{2x}}
+\overset{\left[\frac{0}{0}\right]}{\underset{\mathrm{H}}{=}}
+\lim_{x\to 0}{\frac{e^x}{2}}={\frac{1}{2}}
+$$
+
+$$
+\theta
+$$
+
+
 $$ 
 \mathcal{L}_{VNMT}(\theta,\phi;x,y)=-KL(q_\phi(z|x,y)||p_\theta(z))+\mathbb{E}_{q_{\theta}(z|x,y)}[\log {p_\theta(y|z,x)}] 
 $$
