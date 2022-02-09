@@ -7,6 +7,7 @@ use_math: true
 # Variational Neural Machine Translation
 
 ## 2016 EMNLP; B Zhang et al.
+## Link: https://arxiv.org/abs/1605.07869
 
 ### Introduction
 
