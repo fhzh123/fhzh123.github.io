@@ -1,6 +1,7 @@
 ---
 layout: post
 title: Variational Neural Machine Translation
+use_math: true
 ---
 
 # Variational Neural Machine Translation
@@ -8,7 +9,7 @@ title: Variational Neural Machine Translation
 ## 2016 EMNLP; B Zhang et al.
 
 ### Introduction
-
+r 
 * Seq2seq와 Attention을 활용하여 NMT (Neural Machine Translation)은 꾸준하게 성장 중
 * Attention기반 context vector만으로는 문장 전체의 semantic(의미)를 이해하는 것이 충분하지 못하므로 바람직하지 못한 번역이 발생할 수 있음 (Tu et al., 2016)
 * latetn variable을 활용하여 Attention기반 context vector만 활용할 때의 문제점들을 보완하고 semantic(의미)를 더 잘 추출하고자 함
@@ -20,4 +21,6 @@ title: Variational Neural Machine Translation
 * 자세한 내용은 생략 (타 블로그 참조)
 
 ### Variational Neural Machine Translation
-$$ \mathcal{L}_{VNMT}(\theta,\phi;x,y)=-KL(q_\phi(z|x,y)||p_\theta(z))+\mathbb{E}_{q_{\theta}(z|x,y)}[\log {p_\theta(y|z,x)}] $$
+$$ 
+\mathcal{L}_{VNMT}(\theta,\phi;x,y)=-KL(q_\phi(z|x,y)||p_\theta(z))+\mathbb{E}_{q_{\theta}(z|x,y)}[\log {p_\theta(y|z,x)}] 
+$$
