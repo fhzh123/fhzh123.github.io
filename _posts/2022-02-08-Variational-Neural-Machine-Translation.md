@@ -22,6 +22,9 @@ use_math: true
 * 자세한 내용은 생략 (타 블로그 참조)
 
 ### Variational Neural Machine Translation
+
+This formula $f(x) = x^2$ is an example.
+
 $$ 
 \mathcal{L}_{VNMT}(\theta,\phi;x,y)=-KL(q_\phi(z|x,y)||p_\theta(z))+\mathbb{E}_{q_{\theta}(z|x,y)}[\log {p_\theta(y|z,x)}] 
 $$
