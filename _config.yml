@@ -87,6 +87,8 @@ exclude:
 
 # Math equation
 markdown: kramdown
+kramdown:
+    math_engine: katex
 highlighter: rouge
 lsi: false
 excerpt_separator: "\n\n"
